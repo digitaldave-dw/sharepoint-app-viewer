@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://digit4ld4ve.sharepoint.com/sites/dev/Shared%20Documents/Forms/AllItems.aspx",
+      "customActions": {
+        "0894fdfc-5f2e-4ab1-8619-b2bfd226224e": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    },
+    "iFcFilesViewer": {
+      "pageUrl": "https://digit4ld4ve.sharepoint.com/sites/dev/Shared%20Documents/Forms/AllItems.aspx",
+      "customActions": {
+        "0894fdfc-5f2e-4ab1-8619-b2bfd226224e": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    }
+  }
+}

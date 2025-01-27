@@ -1,0 +1,19 @@
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="Open 3D Viewer"
+        Location="ClientSideExtension.ListViewCommandSet.CommandBar"
+        RegistrationId="101"
+        RegistrationType="List"
+        ClientSideComponentId="0894fdfc-5f2e-4ab1-8619-b2bfd226224e">
+        <CommandUIExtension>
+            <CommandUIDefinition>
+                <Button
+                    Id="IFC_VIEWER_BUTTON"
+                    Command="COMMAND_1"
+                    LabelText="Open 3D Viewer"
+                    ImageAltText="3D Viewer"
+                    Sequence="15"/>
+            </CommandUIDefinition>
+        </CommandUIExtension>
+    </CustomAction>
+</Elements>

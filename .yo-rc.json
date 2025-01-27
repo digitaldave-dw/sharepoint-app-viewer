@@ -1,0 +1,22 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.20.3",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.24.0"
+    },
+    "version": "1.20.0",
+    "libraryName": "sharepoint-app-viewer",
+    "libraryId": "75300445-f7eb-4320-a2c4-e15c7dc0ce86",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "sharepoint-app-viewer",
+    "solutionShortDescription": "sharepoint-app-viewer description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ListViewCommandSet"
+  }
+}
